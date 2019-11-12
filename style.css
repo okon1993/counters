@@ -1,0 +1,38 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+    color: #fff;
+    font-size: 30px; 
+    font-family: 'calibri', sans-serif;
+    text-transform: capitalize;
+}
+.counter-box{
+    background: brown;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: 400;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 5px;
+    background: burlywood;
+    color: #fff;
+    font-size:20px;
+    box-shadow: 0px 5px #000;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.btn:active{
+    box-shadow: none;
+}
+.counter{
+    font-size: 100px;
+}
